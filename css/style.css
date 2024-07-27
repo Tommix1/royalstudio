@@ -1,11 +1,33 @@
 @charset "UTF-8";
-/*
-* Trunk version 2.0.0
-*/
-/*
-*
-* Contexts
-*/
+
+#cookie-banner {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: #001dc0;
+	color: #ffffff;
+	text-align: center;
+	padding: 10px;
+	display: none;
+}
+
+#cookie-banner button {
+	background-color: #4CAF50;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	cursor: pointer;
+}
+
+#cookie-banner button.information {
+	background-color: #ffee00;
+}
+
+#cookie-banner button.decline {
+	background-color: #d9534f;
+}
+
 a:focus,
 button:focus {
 	outline: none !important;
@@ -668,7 +690,7 @@ a[href*='tel'], a[href*='mailto'] {
 	height: 100%;
 	left: 50%;
 	right: 50%;
-	background: #a3b8ff;
+	background: #C1AA56ff;
 	transition: all .3s ease;
 }
 
@@ -12464,6 +12486,16 @@ html:not(.lt-ie10) .not-animated {
 *
 * ToTop
 */
+.fab, .fas{
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	display: inline-block;
+	font-style: normal;
+	font-variant: normal;
+	text-rendering: auto;
+	line-height: 1
+}
+
 .ui-to-top {
 	position: fixed;
 	right: 15px;
@@ -12505,7 +12537,7 @@ html.tablet .ui-to-top {
 	.ui-to-top {
 		width: 50px;
 		height: 50px;
-		line-height: 46px;
+		line-height: 50px;
 		right: 30px;
 		bottom: 30px;
 	}
@@ -20271,7 +20303,7 @@ footer {
   }
   
   footer .col-md-4 {
-	flex-basis: 33.33%;
+	flex-basis: 100.33%;
 	margin: 20px;
   }
   
