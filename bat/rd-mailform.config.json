@@ -2,7 +2,7 @@
   "useSmtp": true,
   "host": "stmp.gmail.com",
   "port": 587,
-  "username": "royalstudio2025@gmail.com",
-  "password": "Iltommaso2",
+  "username": "demo@gmail.com",
+  "password": "demopassword",
   "recipientEmail": "info@royalstudio.it"
 }
