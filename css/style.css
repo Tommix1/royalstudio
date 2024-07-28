@@ -10623,7 +10623,7 @@ html.boxed body {
 		-webkit-text-fill-color: transparent;
 		background: -webkit-linear-gradient(transparent, transparent);
 		background: -o-linear-gradient(transparent, transparent);
-		background: linear-gradient(-62deg, #45476f, #C1AA56ff);
+		background: linear-gradient(-62deg, #D8AD02, #C1AA56ff);
 		-webkit-background-clip: text;
 	}
 	.text-img > span {

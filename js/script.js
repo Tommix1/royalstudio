@@ -1442,7 +1442,7 @@
 				}
 			} )
 		}
-
+		
 		// Google maps
 		if ( plugins.maps.length ) {
 			lazyInit( plugins.maps, initMaps );
